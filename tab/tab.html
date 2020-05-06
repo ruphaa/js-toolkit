@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="tab.css" />
+    <script src="tab.js"></script>
+  </head>
+  <body>
+    <div class="tab-wrapper">
+      <div class="tabs">
+        <button class="active" onclick="openTab(event, 'tab1')">Tab 1</button>
+        <button onclick="openTab(event, 'tab2')">Tab 2</button>
+        <button onclick="openTab(event, 'tab3')">Tab 3</button>
+      </div>
+      <div class="tab-content">
+        <div id="tab1" class="content">
+          Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus.
+          Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam
+          elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris
+          dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed
+          magna quis ligula eleifend adipiscing
+        </div>
+        <div id="tab2" class="content hide">
+          Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida
+          ante, ut pharetra massa metus id nunc. Duis scelerisque molestie
+          turpis. Sed fringilla, massa eget luctus malesuada, metus eros
+          molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet
+          fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam.
+          Praesent in eros vestibulum mi adipiscing adipiscing.
+        </div>
+        <div id="tab3" class="content hide">
+          Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper
+          at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo
+          vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti.
+          Donec mattis, pede vel pharetra blandit
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
