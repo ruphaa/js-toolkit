@@ -4,4 +4,4 @@ A light-weight library which includes essential UI components built using Vanill
 
 ## List of components
 
-    🍿 Tabs
+🍿 Tabs
