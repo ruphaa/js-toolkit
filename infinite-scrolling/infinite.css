@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1e3cb;
+  font-family: "Questrial", sans-serif;
+}
+
+#infinity-list {
+  width: 50rem;
+  height: 55rem;
+  border: 0.8rem solid #6886c5;
+  list-style: none;
+  padding: 2rem 1rem;
+  font-size: 1.5rem;
+  overflow-y: scroll;
+}
+
+#infinity-list li {
+  padding: 1rem 2rem;
+  border: 4px solid #522d5b;
+  margin-top: 10px;
+}
+
+.post h3 {
+  color: #00005c;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.post img {
+  width: 100%;
+  margin-bottom: 10px;
+}
