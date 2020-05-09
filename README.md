@@ -6,3 +6,4 @@ A light-weight library which includes essential UI components built using Vanill
 
 🍿 Tabs
 🍿 Sidebar Navigation Menu
+🍿 Infinite Scrolling with Images
